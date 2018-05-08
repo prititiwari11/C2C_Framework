@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 
 public class ParentPage 
 {
-public void enterText(WebElement element, String text) 
+public void enterText(WebElement element, String texts) 
 {
-	element.sendKeys(text);
+	element.sendKeys(texts);
 }
 
 public void ClickOnElement(WebElement element) 
